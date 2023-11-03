@@ -1,0 +1,55 @@
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 1.2;
+    text-align: justify;
+
+}
+h3{
+    font-size: 22px;
+    font-family: serif;
+    text-decoration-line: underline;
+}
+h2{
+    font-size: 26px;
+    font-family: serif;
+    
+}
+
+ul{
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+ol{
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.4;
+    text-align: justify;
+}
+h1{
+    font-size: 28px;
+    font-family: serif;
+
+}
+h4{
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+nav{
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: serif;
+}
+label{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-family: serif;
+    font-family: sans-serif;
+}
+input{
+    height: 25px;
+    width: 200px;
+    border-radius: 6px;
+    border-color: white ;
+}

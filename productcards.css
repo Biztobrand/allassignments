@@ -1,0 +1,60 @@
+
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+}
+#productcard{
+    width: 350px;
+    height: 315px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px rgb(218, 218, 218);
+    border-radius: 16px;
+    margin: 50px auto;
+    position: relative;
+}
+#allcards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+#productimg{
+    width: 335px;
+    height: 200px;
+    border-radius: 16px;
+    padding: 8px;
+    padding-bottom: 24px;
+}
+
+#productname{
+    padding-left: 24px;
+    font-size: 16px;
+    color: #425466;
+    padding-bottom: 8px;
+}
+#productprice{
+    font-size: 22px;
+    padding-left: 24px;
+    
+}
+
+.round-icon{
+    position: absolute;
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    /* use this mandatory when we use position:absolute */
+    right: 22px;
+    top: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgb(179, 178, 178);
+}
+
+
+
+
+

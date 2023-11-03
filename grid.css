@@ -1,0 +1,41 @@
+.container{
+    height: 800px;
+    width: 800px;
+    margin: 50px auto;
+    
+    display: grid;
+    grid-template-columns: 200px;
+    gap: 10px;
+    grid-template-rows: 100px 1fr 100px;
+}
+
+#title{
+    background-color:bisque ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(202, 202, 202);
+}
+#main{
+    background-color:rgb(255, 80, 252) ;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3 ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(202, 202, 202);
+}
+#menu{
+    background-color:rgb(83, 249, 255) ;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(202, 202, 202);
+
+}
+#footer{
+    background-color:brown ;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(202, 202, 202);
+}
+
